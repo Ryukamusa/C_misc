@@ -38,11 +38,12 @@ void testeValues(const char *value,const char *expected){
   free(actual);
 }
 
-void main(void){
+int main(void){
   const char *source = "mHixDSsnDLP";
   const char *expected = "M-Hh-Iii-Xxxx-Ddddd-Ssssss-Sssssss-Nnnnnnnn-Ddddddddd-Llllllllll-Ppppppppppp";
   testeValues(source,expected);
   const char *source2 = "AbCdi";
   const char *expected2 = "A-Bb-Ccc-Dddd-Iiiii";
   testeValues(source2,expected2);
+  return 0;
 }

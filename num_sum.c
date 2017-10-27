@@ -14,8 +14,9 @@ long rowSumOddNumbers(int n)
 }
 
 
-void main(void){
+int main(void){
   int row = 10005;
   long sum = rowSumOddNumbers(row);
   printf("Soma da %d fila é %ld\n", row,sum);
+  return 0;
 }

@@ -34,7 +34,7 @@ char *iterPi(double epsilon) {
   return ret;
 }
 
-int main() {
+int main(void) {
   char *ret = iterPi(0.01);
   printf("%s\n", ret);
   free(ret);

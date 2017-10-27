@@ -34,11 +34,12 @@ void dotest(int h, int d, int vt, int expected){
   int result = tankVol(h,d,vt);
   printf("Expected: %d\nResult: %d\n",expected,result);
 }
-int main() {
+int main(void) {
   dotest(5, 7, 3848, 2940);
   dotest(2, 7, 3848, 907);
   dotest(3, 6, 3500, 1750);
   dotest(3, 6, 3501, 1750);
   return 0;
 }
+
 

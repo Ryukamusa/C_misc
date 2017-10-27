@@ -18,10 +18,10 @@ char *series_sum(const size_t n){
 
 }
 
-void main(void){
+int main(void){
   int n = 0;
   char *valor = series_sum(n);
   printf("%s\n", valor);
   free(valor);
-  // printf("Soma até %d é %s\n", n,valor);
+  return 0;
 }

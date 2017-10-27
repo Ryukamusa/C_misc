@@ -14,10 +14,11 @@ const char* greet(const char *name, const char *owner) {
   }
 }
 
-void main(void){
+int main(void){
   char nome[10] = "Miguel";
   char dono[10] = "José";
   const char *saudacao = greet(nome,dono);
   printf("%s\n", saudacao);
+  return 0;
 }
 
